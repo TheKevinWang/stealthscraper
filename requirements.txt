@@ -3,3 +3,4 @@ numpy
 tkinter
 klembord
 shlex
+Realistic-Mouse @ git+https://github.com/AntoinePassemiers/Realistic-Mouse@684b0b8
