@@ -3,11 +3,11 @@ A social media scraper that attempts to be stealthy by using gui automation. Use
 Currently, it relys on select all + copy for getting the url from the browser. Eventually, I want to use a plugin and also support [undetected_chromedriver](https://github.com/ultrafunkamsterdam/undetected-chromedriver). The idea is that plugins are harder/impossible to detect compared to something like undetected_chromedriver, which is a "cat and mouse game" of detection. 
 
 Supports:
-LinkedIn Employees
-LinkedIn posts
-Twitter posts
-Youtube channel vid urls + descriptions
-Facebook (Post text only. Text based scraping.)
+* LinkedIn Employees
+* LinkedIn posts
+* Twitter posts
+* Youtube channel vid urls + descriptions
+* Facebook (Post text only. Text based scraping.)
 
 # Usage
 Currently, only Chrome and Windows is supported. 
