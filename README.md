@@ -17,8 +17,11 @@ Supports:
 
 # Usage
 Currently, only Chrome and Windows is supported. 
+Install:
 ```
 pip install -r requirements.txt 
-# Scrapes 3 pages of employees (total of 30). First, launches a browser and waits for manual login (-w). 
+```
+Launches a browser and waits for manual login (-w). Scrape 3 pages of LinkedIn employees (total of 30).
+```
 python3 main.py -u 'https://www.linkedin.com/company/procter-and-gamble' -m linkedin_employees -o out.json -l 3 -w 
 ```
