@@ -2,7 +2,7 @@
 <p align="center">
 <img width="399" alt="immagine" src="https://raw.githubusercontent.com/TheKevinWang/stealthscraper/main/logo.png">
 <br>
-Craiyon AI generated logo.
+Craiyon AI generated logo of a ninja holding a paint scraper. 
 </p>
 
 A social media scraper that attempts to be stealthy by using gui automation. Uses [Realistic-Mouse](https://github.com/AntoinePassemiers/Realistic-Mouse) for mouse movement. 
