@@ -307,7 +307,7 @@ def scrape_linkedin_posts_txt(url, usr='', pwd='', login=False, ff_path='C:\Prog
 if __name__ == '__main__':
     modules = ['linkedin_posts','linkedin_employees','youtube_vids','facebook_posts_txt','twitter_tweets']
     parser = argparse.ArgumentParser(description='Social media scraper.')
-    parser.add_argument('-u','--url', dest='url', type=str, help='Url to scrape. ie https://www.linkedin.com/company/procter-and-gamble')
+    parser.add_argument('-u','--url', dest='url', type=str, help='Url to scrape.')
     parser.add_argument('-U','--url-file', dest='url_file', type=str, help='File of urls to scrape. Use comment out using # to ignore lines')
     parser.add_argument('-o','--out', dest='outFile', type=str, help='File to dump output. If blank, output is printed')
     parser.add_argument('-b','--browser_path', dest='browser_path', type=str, help='Path to browser. Currently, only chrome is supported.')
@@ -316,7 +316,7 @@ if __name__ == '__main__':
     parser.add_argument('-m','--module', dest='module', choices=modules, help='Which module to use for scraping.')
     parser.add_argument('-t','--out-type', dest='outType', choices=['txt','json'], help='Output raw json or text.')
     parser.add_argument('-usr', '--username', dest='usr',type=str, help='Username to use for login.')
-    #TODO more secure way of doing this...
+    #TODO more secure way of doing this...'
     parser.add_argument('-pwd', '--password', dest='pwd',type=str, help='Password to use for login.')
     parser.add_argument('-w', '--wait-auth', dest='wait_auth', action='store_true',
                         help='Launches a browser and waits for you to login. Press any key to continue.')
